@@ -1,0 +1,16 @@
+program 
+{
+    -- encuentra la raiz cuadrada de un numero (si tiene raiz cuadrada enlos naturales) por fuerza bruta
+    numero := 144
+    sqrt := 1;
+    return := -1; 
+    while ((sqrt * sqrt) < numero && return == -1) 
+    {
+        if ((sqrt * sqrt) == numero) 
+        {
+            return := sqrt;
+        } else {
+            sqrt := sqrt + 1; 
+        }
+    }
+}

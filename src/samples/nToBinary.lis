@@ -1,0 +1,22 @@
+-- Number to Binary.
+program
+ {
+    -- Parameters
+    n := 235;
+
+    -- Body
+    num := n;
+    bit := 0;
+    res := 0;
+    offset := 1
+    while (num > 0)
+     {
+       bit := num % 2;
+       num := num / 2;
+       res := bit * offset + res;
+       offset := offset * 10
+     }
+     
+     -- Return 
+     return := res  
+ }

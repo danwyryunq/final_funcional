@@ -1,0 +1,13 @@
+program {
+    -- Parameters
+    
+    -- Body
+    if (True || !True && !False) {
+      res := 1
+    } else {
+      res := 0
+    }
+    
+    -- Return
+    return := res
+}

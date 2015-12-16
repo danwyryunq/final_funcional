@@ -1,0 +1,39 @@
+program {
+    -- Chequeo de los operadores de comparacion 
+    n1 := 1 ; 
+    n2 := 1 ; 
+    z  := 0 ;
+
+    eq  := 0; 
+    lt  := 0;
+    le1 := 0; 
+    le2 := 0; 
+    gt  := 0; 
+    ge1 := 0; 
+    ge2 := 0;  
+    ne  := 0; 
+
+    if ( n1 == n2 ) 
+    { eq := 1 ; }
+
+    if ( z <  n1 ) 
+    { lt := 1 ; }
+
+    if ( z <= n1 ) 
+    { le1 := 1 ; }
+
+    if ( n1 <= n2 ) 
+    { le2 := 1 ; }
+
+    if ( n1 >  z ) 
+    { gt := 1 ; }
+
+    if ( n1 >= z ) 
+    { ge1 := 1 ; }
+
+    if ( n1 >= n2 ) 
+    { ge2 := 1 ; }
+
+    if ( n1 != z ) 
+    { ne := 1 ; }
+}

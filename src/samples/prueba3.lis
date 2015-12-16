@@ -1,0 +1,25 @@
+program
+{ 
+    -- Determina si un numero es primo
+    num := 13; 
+    divisor := num; 
+    cantDivisores := 0 ; 
+
+    while ( cantDivisores <= 2 && divisor > 0) 
+    {
+        if ( (num % divisor) == 0 ) 
+        { 
+            cantDivisores := cantDivisores + 1; 
+        }
+        divisor := divisor - 1; 
+    }
+
+    if (cantDivisores <= 2) 
+    {
+        return := 1 ; 
+    } else 
+    {
+        return := 0 ; 
+    }
+
+}

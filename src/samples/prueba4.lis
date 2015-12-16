@@ -1,0 +1,16 @@
+program {
+    -- Exponente
+    exponente := 6;
+    numero := 2;
+    resultado := numero;
+    if (exponente == 0) 
+    { 
+        resultado := 1; 
+    } else {
+        while ( exponente > 1 ) 
+        {
+            resultado := resultado * numero; 
+            exponente := exponente -1; 
+        }
+    }
+}

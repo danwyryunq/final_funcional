@@ -1,0 +1,14 @@
+program
+ { 
+   -- Parameters
+   n := 6; 
+    
+   -- Body
+   a := n; 
+   facn := 1  
+   while (a > 0) 
+    {facn := a * facn; a := a - 1}
+     
+   -- Return
+   return := facn
+ }

@@ -1,0 +1,17 @@
+program {
+    -- Parameters
+    i := 1;
+    n := 10;
+    
+    -- Body
+    i2 := n;
+    sum := 0
+    while (i2 >= i) {
+      sum := sum + i2;
+      i2 := i2 - 1
+    }
+    
+    
+    -- Return
+    return := sum
+}
